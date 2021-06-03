@@ -2,10 +2,10 @@
 Este es un parche de firmware para los teclados Motospeed CK104 y E-Element Z-88, para corregir un error en el que su software de control dice constantemente "Device is disconnected"/"El dispositivo está desconectado" y se niega a controlar la iluminación RGB del teclado.
 
 # Riesgos - ¡debes leer!
-** Existe cierto nivel de riesgo al realizar esta modificación. ** Si bien no implica modificar el hardware, sí implica modificar el firmware del teclado.
-  1. No se conoce ninguna forma de realizar una copia de seguridad del firmware original del teclado. Esto significa que si el archivo de firmware no funciona, ** no podrá volver al estado operativo **.
+**Existe cierto nivel de riesgo al realizar esta modificación.** Si bien no implica modificar el hardware, sí implica modificar el firmware del teclado.
+  1. No se conoce ninguna forma de realizar una copia de seguridad del firmware original del teclado. Esto significa que si el archivo de firmware no funciona, **no podrá volver al estado operativo**.
   2. Actualizar el firmware es riesgoso. Desenchufar el teclado durante una actualización, o cualquier otro problema que haga que falle la transferencia del firmware, podría bloquear el teclado.
-  3. ** Se sabe que el firmware actualizado reduce ligeramente el brillo máximo de los LED en el teclado. ** Esto se debe probablemente a la forma diferente en que controla los LED. Mi estimación completamente poco científica es que con el firmware actualizado, el brillo máximo es solo alrededor del 80-90% de lo que era originalmente. La mayoría de los usuarios ni siquiera se han dado cuenta de esto, y yo mismo lo dudé hasta que otros me preguntaron, es muy leve. ** No realice la modificación si no está satisfecho con esto. **
+  3. **Se sabe que el firmware actualizado reduce ligeramente el brillo máximo de los LED en el teclado.** Esto se debe probablemente a la forma diferente en que controla los LED. Mi estimación completamente poco científica es que con el firmware actualizado, el brillo máximo es solo alrededor del 80-90% de lo que era originalmente. La mayoría de los usuarios ni siquiera se han dado cuenta de esto, y yo mismo lo dudé hasta que otros me preguntaron, es muy leve. **No realice la modificación si no está satisfecho con esto.**
   4. El firmware que está colocando en su teclado es el de un modelo diferente, que funcionó. Esto es experimental, nadie ha hecho ningún trabajo para demostrar que es seguro o confiable, solo probamos algo y funcionó. No hay garantía de que el firmware funcione o de que no cause problemas con su teclado ahora o en el futuro. Se proporciona de forma gratuita con la esperanza de que ayude a alguien, por lo que no le debemos nada si sale mal.
 
 Debido a estos riesgos, debe comprender y aceptar los siguientes puntos antes de realizar la modificación. Si el español no es su primer idioma, mire las copias traducidas y asegúrese de entenderlo.
@@ -13,7 +13,7 @@ Debido a estos riesgos, debe comprender y aceptar los siguientes puntos antes de
   2. Es su teclado, no el de otra persona. Si lo rompe, no hará que nadie se enoje (como un padre).
   3. Acepta que podría hacer que su teclado sea un poco menos brillante (ver arriba).
   4. Usted comprende que este recurso se proporciona completamente por buena voluntad y sin costo, y yo ni ningún contribuyente futuro a este repositorio somos responsables si rompe su teclado.
-  5. ** No es posible volver a su firmware original en este momento. Esta modificación es permanente, no se puede deshacer. **
+  5. **No es posible volver a su firmware original en este momento. Esta modificación es permanente, no se puede deshacer.**
 
 Si comprende y acepta todo esto, no dude en continuar.
 
