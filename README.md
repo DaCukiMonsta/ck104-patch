@@ -29,6 +29,9 @@ Before following the instructions below, you **must** understand and agree to th
 
 The picture of the keyboard in the new software will look a little different to your real keyboard, but this is okay please ignore it. If you experience any issues, you can open an issue on GitHub or contact me on Discord DaCukiMonsta#8002, or Reddit [/u/DaCukiMonsta](https://www.reddit.com/u/DaCukiMonsta) and I might be able to try and help you.
 
+# Additional Control
+I have been writing a Python libary for this firmware to allow you to control the RGB lights on the keyboard in any way you want through code. It is currently in a prototype stage, and not entirely working so I haven't uploaded it anywhere. If you want to have a mess around with this, let me know and I can share my code with you, perhaps you could help make it complete.
+
 # Sources
 The original method comes from [this post](https://www.reddit.com/r/MechanicalKeyboards/comments/7sghkk/eelement_z88_104_keys_lighting_and_macro_editor/) by Reddit user [/u/SharXeniX](https://www.reddit.com/u/SharXeniX). This described using the X2000 firmware on an E-Element Z-88 keyboard. However, since the Motospeed CK104 is a clone of this keyboard (or maybe the other way around? at least, they are the same inside), I figured it would work for the CK104 too. I tried it and I was correct.
 
